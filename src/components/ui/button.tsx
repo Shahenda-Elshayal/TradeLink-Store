@@ -14,7 +14,7 @@ const buttonVariants = cva(
         dark: "bg-foreground text-background hover:bg-foreground/90",
         /* Secondary / Outline */
         outline:
-          "border-border bg-transparent text-foreground hover:bg-brand-surface-mid/70 aria-expanded:bg-brand-surface-mid aria-expanded:text-foreground",
+          "border-brand-text/20 bg-transparent text-foreground hover:bg-brand-surface-mid/70 aria-expanded:bg-brand-surface-mid aria-expanded:text-foreground",
         /* Soft fill using surface-mid */
         secondary:
           "bg-secondary text-secondary-foreground hover:bg-secondary/80 aria-expanded:bg-secondary aria-expanded:text-secondary-foreground",

@@ -75,7 +75,7 @@
     --brand-dispatch-foreground: #faf3e1;
 
     /* shadcn semantic tokens mapped to brand */
-    --background: var(--brand-surface);
+    --background: var(--brand-surface-low);
     --foreground: var(--brand-text);
     --card: var(--brand-surface-low);
     --card-foreground: var(--brand-text);

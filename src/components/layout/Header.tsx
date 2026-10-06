@@ -6,7 +6,7 @@ import { ShoppingCart, User } from "lucide-react";
 
 export function Header() {
   return (
-    <header className="border-b border-outline-variant bg-background">
+    <header className="border-b border-[#E0DAC8] bg-[#FFF9ECF2] shadow-[0px_1px_2px_0px_#0000000D] backdrop-blur-[12px]">
       <div className=" flex h-16 items-center justify-between  gap-4 page-x py-4">
         {/* logo image and  Nav links */}
         <div className="flex items-center gap-4">
@@ -55,29 +55,30 @@ export function Header() {
         <div className="flex items-center gap-4">
           <div className="flex items-center gap-1">
             <Link to="/login">
-            <Button variant="link" className="text-foreground">
-              Login
-            </Button>
+              <Button variant="link" className="text-foreground">
+                Login
+              </Button>
             </Link>
             <span className="text-foreground">|</span>
             <Link to="/signup">
-            <Button variant="link" className="text-foreground">
-              Signup
-            </Button>
+              <Button variant="link" className="text-foreground">
+                Signup
+              </Button>
             </Link>
           </div>
 
           <div className="flex items-center gap-4">
-            <Button
-              variant="outline"
-              className="text-foreground border-outline-variant relative"
-            >
-              <ShoppingCart className="size-5" />
-              <span className="absolute -top-2 -right-2 bg-primary text-white rounded-full px-2 py-1 text-xs">
-                3
-              </span>
-            </Button>
-
+            <Link to="/cart">
+              <Button
+                variant="outline"
+                className="text-foreground border-outline-variant relative"
+              >
+                <ShoppingCart className="size-5" />
+                <span className="absolute -top-2 -right-2 bg-primary text-white rounded-full px-2 py-1 text-xs">
+                  3
+                </span>
+              </Button>
+            </Link>
             <Button className="text-foreground border-0 relative">
               <User className="size-5" />
             </Button>
