@@ -20,6 +20,8 @@
     --color-brand-surface-mid: var(--brand-surface-mid);
     --color-brand-accent: var(--brand-accent);
     --color-brand-text: var(--brand-text);
+    --color-brand-dispatch: var(--brand-dispatch);
+    --color-brand-dispatch-foreground: var(--brand-dispatch-foreground);
 
     --color-sidebar-ring: var(--sidebar-ring);
     --color-sidebar-border: var(--sidebar-border);
@@ -69,6 +71,8 @@
     --brand-surface-mid: #f5e7c6;
     --brand-accent: #abe0f0;
     --brand-text: #1e1c11;
+    --brand-dispatch: #333025;
+    --brand-dispatch-foreground: #faf3e1;
 
     /* shadcn semantic tokens mapped to brand */
     --background: var(--brand-surface);
