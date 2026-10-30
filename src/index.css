@@ -21,8 +21,12 @@
     --color-brand-surface-high: var(--brand-surface-high);
     --color-brand-accent: var(--brand-accent);
     --color-brand-text: var(--brand-text);
+    --color-brand-text-secondary: var(--brand-text-secondary);
+    --color-brand-subtitle: var(--brand-subtitle);
     --color-brand-dispatch: var(--brand-dispatch);
     --color-brand-dispatch-foreground: var(--brand-dispatch-foreground);
+    --color-brand-subtitle: var(--brand-subtitle);
+    --color-brand-description: var(--brand-description);
 
     --color-sidebar-ring: var(--sidebar-ring);
     --color-sidebar-border: var(--sidebar-border);
@@ -73,8 +77,11 @@
     --brand-surface-high: #efe1c1;
     --brand-accent: #abe0f0;
     --brand-text: #1e1c11;
+    --brand-text-secondary: #1B1C1C;
     --brand-dispatch: #333025;
     --brand-dispatch-foreground: #faf3e1;
+    --brand-subtitle: #A43E00;
+    --brand-description: #594137;
 
     /* shadcn semantic tokens mapped to brand */
     --background: var(--brand-surface-low);
