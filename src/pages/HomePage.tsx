@@ -1,5 +1,4 @@
 import heroImage from "@/assets/vase.png";
-import { Button } from "@/components/ui/button";
 import { Link } from "@tanstack/react-router";
 import { IconTextButton } from "@/components/IconTextButton";
 import { ArrowRightIcon } from "lucide-react";
@@ -25,6 +24,8 @@ export function HomePage() {
           </p>
 
           <IconTextButton
+            nativeButton={false}
+            render={<Link to="/products" />}
             icon={ArrowRightIcon}
             iconPosition="end"
             className="w-fit"
