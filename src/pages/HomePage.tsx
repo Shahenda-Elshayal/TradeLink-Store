@@ -34,7 +34,7 @@ export function HomePage() {
           </IconTextButton>
         </div>
         {/* right side */}
-        <article className="w-[300px] max-w-full justify-self-end bg-white rounded-[4px] p-3 lg:col-span-2 lg:w-full lg:max-w-none">
+        <article className="w-[300px] max-w-full justify-self-end bg-white rounded-[4px] p-3 lg:col-span-2 lg:w-[400px]">
           <div className="">
             <div className="rounded-[6px] relative">
               <img
