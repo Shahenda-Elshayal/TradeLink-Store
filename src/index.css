@@ -18,6 +18,7 @@
     --color-brand-surface: var(--brand-surface);
     --color-brand-surface-low: var(--brand-surface-low);
     --color-brand-surface-mid: var(--brand-surface-mid);
+    --color-brand-surface-high: var(--brand-surface-high);
     --color-brand-accent: var(--brand-accent);
     --color-brand-text: var(--brand-text);
     --color-brand-dispatch: var(--brand-dispatch);
@@ -69,6 +70,7 @@
     --brand-surface: #fff9ec;
     --brand-surface-low: #faf3e1;
     --brand-surface-mid: #f5e7c6;
+    --brand-surface-high: #efe1c1;
     --brand-accent: #abe0f0;
     --brand-text: #1e1c11;
     --brand-dispatch: #333025;
