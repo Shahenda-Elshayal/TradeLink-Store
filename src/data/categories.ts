@@ -22,7 +22,7 @@ export const categories : CategoryType[] = [
     },
     {
         name: "Accessories",
-        description: "Carry hhhhhxhhhhdhhdhdhhdhhdhhhh and EDC",
+        description: "Carry goods and EDC",
         icon: BriefcaseIcon,
         itemsCount: 18,
     },
