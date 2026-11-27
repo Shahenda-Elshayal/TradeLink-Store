@@ -2,6 +2,7 @@ import { Link } from "@tanstack/react-router";
 import { ArrowRight } from "lucide-react";
 import { IconTextButton } from "../IconTextButton";
 import { FeaturedProductCard } from "./FeaturedProductCard";
+import { featuredProducts } from "@/data/featuredProduct";
 
 export function FeaturedProductsSection() {
   return (
@@ -32,24 +33,13 @@ export function FeaturedProductsSection() {
         </div>
       </div>
       <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4">
-        <li>
-          <FeaturedProductCard/>
-        </li>
-        <li>
-          <FeaturedProductCard/>
-        </li>
-        <li>
-          <FeaturedProductCard/>
-        </li>
-        <li>
-          <FeaturedProductCard/>
-        </li>
-        <li>
-          <FeaturedProductCard/>
-        </li>
-        <li>
-          <FeaturedProductCard/>
-        </li>
+        {
+            featuredProducts.map(product => (
+                <li key={product.id}>
+                    <FeaturedProductCard product={product} />
+                </li>
+            ))
+        }
       </ul>
     </section>
   );
