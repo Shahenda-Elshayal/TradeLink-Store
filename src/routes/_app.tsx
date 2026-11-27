@@ -9,7 +9,7 @@ function AppLayout() {
   return (
     <div>
       <Header/>
-      <main className="p-4">
+      <main className="page-x py-4">
         <Outlet />
       </main>
     </div>
