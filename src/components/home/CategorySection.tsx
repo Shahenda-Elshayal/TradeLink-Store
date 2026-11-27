@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { ChevronRight } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { IconTextButton } from "../IconTextButton";
 import { CategoryCard } from "./CategoryCard";
 import { categories } from "@/data/categories";
@@ -21,7 +21,7 @@ export function CategorySection() {
             nativeButton={false}
             render={<Link to="/products" />}
             variant="link"
-            icon={ChevronRight}
+            icon={ArrowRight}
             iconPosition="end"
             className="h-auto max-h-none min-h-0 px-0 hover:no-underline text-brand-subtitle"
           >
